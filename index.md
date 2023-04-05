@@ -8,7 +8,7 @@
 
 [Link](http://floptopia.com)
 
-![Image](http://url/a.png)
+![Image](floppa.jpg)
 
 > Floppas Are Cool
 
