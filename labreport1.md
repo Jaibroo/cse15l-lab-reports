@@ -51,9 +51,19 @@ Before we begin this process, the reason people should learn to connect to remot
 
 1. First you will need to install Git for windows (if on windows), [Click here to Download Git](https://gitforwindows.org/)
 2. The Page will look something like this: 
-![Image](accnt7.png)
-3. Click on the blue download button and wait for it to appear at the bottom left of your screen, and once it done, click on it again until you see its UI appear on the screen.
-4. Click through until you get to its settings page and which appears as
-![Image](accnt8.png)
 
+![Image](accnt7.png)
+
+3. Click on the blue download button and wait for it to appear at the bottom left of your screen, and once it done, click on it again until you see its UI appear on the screen.
+4. Click through until you get to its settings page and which appears as:
+
+![Image](accnt9.png)
+
+5. If it isn't already enabled, please enable the settings option "Add a Git Bash Profile to Windows Terminal". Some computers should be fine as if, but others such as my own did no work properly until I enabled that specific setting so it's just for reassurance.
+6. Open VsCode up onto its homepage as you will now need it to set up Git Bash in your terminal. You should follow the instructions in the following link for a more straightforward guide for this set up [Click here to set up Git Bash on VsCode](https://stackoverflow.com/a/50527994)
+7. Once you have the Git Bash in your terminal it should look like this (atleast for windows):
+
+![Image](accnt10.png)
+
+8. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the "$" symbol, as long as later commands work then it should work fine regardless.
 
