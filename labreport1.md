@@ -82,7 +82,8 @@ Before we begin this process, the reason people should learn to connect to remot
 
 ![Image](accnt14.png)
 
-16. **If you see that message or something similar, than your computer (client) has successfully connected into a remote computer in CSE (server) and now you can move onto trying new command lines to type in in the next step.**
+16. If the remote server is closed, it may not allow you to log into that specific server
+17. **If you see that message or something similar, than your computer (client) has successfully connected into a remote computer in CSE (server) and now you can move onto trying new command lines to type in in the next step.**
 ***
 
 ## Step #3: Trying Some Commands in Terminal
@@ -98,7 +99,11 @@ Here is a list of commands you can try (copy & paste if you have to):
 * **ls <directory>**
 * **pwd**
 * **mkdir**
-Commands to try with others as well:
+Commands to try with other students as well in server:
 * **cp**
 * **cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/**
 * **cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
+
+After typing and trying some of the commands above, you may get output such as this example below: 
+
+![Image](accnt16.png)
