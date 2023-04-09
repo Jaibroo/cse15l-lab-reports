@@ -75,3 +75,12 @@ Before we begin this process, the reason people should learn to connect to remot
 12. Now press enter, and you should get a message such as:
 
 ![Image](accnt13.png)
+
+13. This message only appears if it's your first time logging in so you will have to type in " yes "
+14. It will then ask for your password so use the password you typed in from the password change of your course-specific account and type it in. There are times where you would be typing in the password but it isn't showing anything, but if you just type it out and then press enter it should log you in regardless.
+15. To know you have succesfully logged in, it will look like:
+
+![Image](accnt14.png)
+
+16. **If you see that message or something similar, than your computer (client) has successfully connected into a remote computer in CSE (server) and now you can move onto trying new command lines to type in in the next step.**
+***
