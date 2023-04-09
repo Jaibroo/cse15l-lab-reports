@@ -12,12 +12,13 @@ These include:
 
 ## Setting up your CSE15L Account
 
-You'll need to look up your CSE 15L specific-account using this link: [CSE15L Account Lookup](https://sdacs.ucsd.edu/~icc/index.php).
-It should bring you to a page that looks something like this:
+**You'll need to look up your CSE 15L specific-account using this link: [CSE15L Account Lookup](https://sdacs.ucsd.edu/~icc/index.php).
+It should bring you to a page that looks something like this:**
 
 ![Image](accnt.png)
 
-You will then need to type in your UCSD account username and your student PID (Usually starts with a letter like A/U followed by 8 digits like A12345678)
-Page should look like this:
-
-![Image]
+**Then you would need to log in to find your CSE15L account and reset its password and to do so, follow this well thought-out tutorial:** [How to reset your CSE 15L Password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
+-You will need to wait at least 15 minutes to allow the change to fully take affect
+-I reccomend you save the name of your CSE 15L account as well as password somewhere or write it down as you will need to use both later on when remote connecting.
+**-Your are done for now, congratulations on setting up your CSE 15L account!!**
+***
