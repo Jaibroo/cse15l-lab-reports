@@ -25,7 +25,21 @@ It should bring you to a page that looks something like this:**
 
 ## Step #1: Installing and Setting up VsCode(Programming Software)
 
-VsCode is a great programming software that allows you to write, edit and change any form of coding you decide to write. To download VsCode, you will need to [Click here to Download](https://code.visualstudio.com/)
+VsCode is a great programming software that allows you to write, edit and change any form of coding you decide to write. To download VsCode, you will need to [Click here to Download](https://code.visualstudio.com/).
 The page it takes you to should look like this:
 
-![Image](
+![Image](accnt3.png)
+
+You need to click on the big blue button that says "Download for Windows" or clicking on the downarrow to change to appropriate computer system. Once you begin downloading, you will see this pop up at the bottom left of your page.
+
+![Image](accnt4.png)
+
+Once it finishes downloading, make sure to click on it and should open up its software screen-set up. Read or skim through the terms and service and just continue clicking next on every page that pops up untill you see the final install page which looks as following:
+
+![Image](accnt5.png)
+
+Once you click on the small instal button at the bottom of its page, wait for the download to be complete so that you can then click on launch to finally open the VsCode programming software. You will know when you're done once you are taken to a page that looks like this (ignore black markings):
+
+![image](accnt6.png)
+
+
