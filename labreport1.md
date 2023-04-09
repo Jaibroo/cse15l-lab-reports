@@ -15,3 +15,9 @@ These include:
 You'll need to look up your CSE 15L specific-account using this link: [CSE15L Account Lookup](https://sdacs.ucsd.edu/~icc/index.php).
 It should bring you to a page that looks something like this:
 
+![Image](accnt.png)
+
+You will then need to type in your UCSD account username and your student PID (Usually starts with a letter like A/U followed by 8 digits like A12345678)
+Page should look like this:
+
+![Image]
