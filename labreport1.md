@@ -84,3 +84,21 @@ Before we begin this process, the reason people should learn to connect to remot
 
 16. **If you see that message or something similar, than your computer (client) has successfully connected into a remote computer in CSE (server) and now you can move onto trying new command lines to type in in the next step.**
 ***
+
+## Step #3: Trying Some Commands in Terminal
+
+Now that you have VsCode set up and are successfully remotely connected into a server, it's time to try some commands to check if you have done the previous steps right and are on the right path.
+
+Here is a list of commands you can try (copy & paste if you have to):
+* **cd
+* cd ~
+* ls
+* ls -lat
+* ls -a
+* ls <directory>
+* pwd
+* mkdir
+Commands to try with others as well:
+* cp
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
