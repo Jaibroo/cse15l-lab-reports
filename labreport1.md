@@ -49,6 +49,11 @@ Once you click on the small **install** button at the bottom of its page, wait f
 
 Before we begin this process, the reason people should learn to connect to remote computer is that it will be used later on when working in jobs and is a great way to get used to working with the terminal. 
 
-1. First
+1. First you will need to install Git for windows (if on windows), [Click here to Download Git](https://gitforwindows.org/)
+2. The Page will look something like this: 
+![Image](accnt7.png)
+3. Click on the blue download button and wait for it to appear at the bottom left of your screen, and once it done, click on it again until you see its UI appear on the screen.
+4. Click through until you get to its settings page and which appears as
+![Image](accnt8.png)
 
 
