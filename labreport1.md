@@ -34,12 +34,14 @@ You need to click on the big blue button that says "Download for Windows" or cli
 
 ![Image](accnt4.png)
 
-Once it finishes downloading, make sure to click on it and should open up its software screen-set up. Read or skim through the terms and service and just continue clicking next on every page that pops up untill you see the final install page which looks as following:
+Once it finishes downloading, make sure to click on it and should open up its software screen-set up. Read or skim through the terms and service and just continue clicking **next** on every page that pops up untill you see the final install page which looks as following:
 
 ![Image](accnt5.png)
 
-Once you click on the small instal button at the bottom of its page, wait for the download to be complete so that you can then click on launch to finally open the VsCode programming software. You will know when you're done once you are taken to a page that looks like this (ignore black markings):
+Once you click on the small **install** button at the bottom of its page, wait for the download to be complete so that you can then click on launch to finally open the VsCode programming software. You will know when you're done once you are taken to a page that looks like this (ignore black markings):
 
 ![image](accnt6.png)
+
+**You have now succesffuly installed the VsCode programming software on your PC and are ready to move on to the next steps!**
 
 
