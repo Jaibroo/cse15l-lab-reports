@@ -55,7 +55,7 @@ Before we begin this process, the reason people should learn to connect to remot
 ![Image](accnt7.png)
 
 3. Click on the blue download button and wait for it to appear at the bottom left of your screen, and once it done, click on it again until you see its UI appear on the screen.
-4. Click through until you get to its settings page and which appears as:
+4. Click through until you get to its settings page which appears as:
 
 ![Image](accnt9.png)
 
@@ -65,5 +65,8 @@ Before we begin this process, the reason people should learn to connect to remot
 
 ![Image](accnt10.png)
 
-8. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the "$" symbol, as long as later commands work then it should work fine regardless.
+8. Incase you missed it, to open your terminal in VsCode after bash has been embedded is pressing Ctrl/Command and the symbol ( ` ). The $ symbol is also something that should already be there and not something you have to type.
+9. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the "$" symbol, as long as later commands work then it should work fine regardless.
+10. Now you wanna get your CSE 15L account from earlier, the one that's usually formatted as cs15lsp23xx (the xx being replaced by your own individual symbols) and add "@ieng6.ucsd.edu" after it. All together should look like: cs15lsp23xx@ieng6.ucsd.edu
+11. Now you wanna type in the command ssh 
 
