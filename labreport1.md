@@ -43,5 +43,12 @@ Once you click on the small **install** button at the bottom of its page, wait f
 ![image](accnt6.png)
 
 **You have now succesffuly installed the VsCode programming software on your PC and are ready to move on to the next steps!**
+***
+
+## Step #2: Remotely Connecting Your CSE 15L Account
+
+Before we begin this process, the reason people should learn to connect to remote computer is that it will be used later on when working in jobs and is a great way to get used to working with the terminal. 
+
+1. First
 
 
