@@ -67,6 +67,8 @@ Before we begin this process, the reason people should learn to connect to remot
 
 8. Incase you missed it, to open your terminal in VsCode after bash has been embedded is pressing Ctrl/Command and the symbol ( ` ). The $ symbol is also something that should already be there and not something you have to type.
 9. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the "$" symbol, as long as later commands work then it should work fine regardless.
-10. Now you wanna get your CSE 15L account from earlier, the one that's usually formatted as cs15lsp23xx (the xx being replaced by your own individual symbols) and add "@ieng6.ucsd.edu" after it. All together should look like: cs15lsp23xx@ieng6.ucsd.edu
-11. Now you wanna type in the command ssh 
+10. Now you wanna get your CSE 15L account from earlier, the one that's usually formatted as cs15lsp23xx (the xx being replaced by your own individual symbols) and add "@ieng6.ucsd.edu" after it. All together the email should look like: cs15lsp23xx@ieng6.ucsd.edu
+11. Now you wanna type into the terminal, click to the right of the "$" symbol and type: shh + the cs15lspxx@ieng.ucsd.edu email that you created from above so that it should look like this in the terminal:
+
+![Image](accnt11.png) 
 
