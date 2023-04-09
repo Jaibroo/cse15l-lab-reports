@@ -90,15 +90,15 @@ Before we begin this process, the reason people should learn to connect to remot
 Now that you have VsCode set up and are successfully remotely connected into a server, it's time to try some commands to check if you have done the previous steps right and are on the right path.
 
 Here is a list of commands you can try (copy & paste if you have to):
-* **cd
-* cd ~
-* ls
-* ls -lat
-* ls -a
-* ls <directory>
-* pwd
-* mkdir
+* **cd**
+* **cd** ~
+* **ls**
+* **ls -lat**
+* **ls -a**
+* **ls <directory>**
+* **pwd**
+* **mkdir**
 Commands to try with others as well:
-* cp
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
+* **cp**
+* **cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/**
+* **cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
