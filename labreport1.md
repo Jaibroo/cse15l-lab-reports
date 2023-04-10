@@ -96,7 +96,7 @@ Here is a list of commands you can try (copy & paste if you have to):
 * **ls**
 * **ls -lat**
 * **ls -a**
-* **ls <directory>**
+* ls <directory>
 * **pwd**
 * **mkdir**
 Commands to try with other students as well in server:
