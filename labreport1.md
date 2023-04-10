@@ -105,12 +105,16 @@ Commands to try with other students as well in server:
 * **cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
 
 Typing these commands in should be as follows:
+
 ![Image](accnt17.png)
   
 After typing and trying some of the commands above, you may get output such as this example below: 
 
 ![Image](accnt16.png)
-Using the command cd would change the directory, if you have no such file with the name you specified after cd then nothing will occur. Using the command cd~ just returned me to the home directory so not much happened or there was no other outcome. Ls -lat seems to just give you a long list of files and the dates/times associated with them
   
-Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.
+Using the command **cd** would change the directory, if you have no such file with the name you specified after **cd** then nothing will occur. Using the command **cd~** just returned me to the home directory so not much happened or there was no other outcome. **Ls -lat** seems to just give you a long list of files and the dates/times associated with them
+  
+*Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.*
+  
+**CONGRATS, you just managed to go through with this tutorial and now know how to download and set up VsCode, your CSE 15L account for remote server connections, and even running certain commands.**
 
