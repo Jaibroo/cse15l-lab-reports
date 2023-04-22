@@ -121,7 +121,7 @@ After typing and trying some of the commands above, you may get output such as t
 
 ![Image](accnt16.png)
   
- `Ls -lat` seems to just give you a long list of files and the dates/times associated with them
+These commands are the basic ones used by almost every developer as its the most efficient way to view ones files, directories, make changes and more. Also can be used in remote servers and is a great thing to practicr with on your own time to hopefully understand how it works.
   
 *Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.*
   
