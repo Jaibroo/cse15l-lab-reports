@@ -1,6 +1,8 @@
 # Lab Report 1
 ***
-theme: 
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme  
 ## Intro Steps (Before you begin)
 First and foremost, you will need the following before you begin the tutorial to ensure the smoothest and quickest set up.
 These include:
