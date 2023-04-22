@@ -89,17 +89,29 @@ Now that you have VsCode set up and are successfully remotely connected into a s
 
 Here is a list of commands you can try (copy & paste if you have to):
 * `cd`
+Using the command `cd` would change the directory, if you have no such file with the name you specified after `cd` then nothing will occur.
 * `cd ~`
+Using the command `cd~` just returned me to the home directory so not much happened or there was no other outcome.
 * `ls`
+This gives you the basic list of your computer directories and files, great way to keep track of what files you are working with and if you are missing anything.
 * `ls -lat`
+The command `Ls -lat` seems to just give you a long list of files and the dates/times associated with them.
 * `ls -a`
+This option flag lists all files including hidden files starting with '.', great way to seek for files/directories hidden in others.
 * `ls <directory>`
+Works similar to other ls commands in the case that is seeks for a certain directory that you type in and finds the files within that directory, useful to know what is in each directory or related to it. An examples such as `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the abc is one of the other group members’ username is a way to use this.
 * `pwd`
+The `pwd` stands for Print Working Directory. It prints the path of the working directory, starting from the root and is a shell built-in command(pwd)
 * `mkdir`
+The `mkdir` command in Linux allows the user to create directories and can create multiple directories at once, setting the permissions for the directories.
+
 Commands to try with other students as well in server:
 * `cp`
+The command `cp` is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name, but requires at least two filenames in its arguments
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+This is a way to use thie command `cp` which allows for the "hello" text to appear for everyone within the server/class.
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` or `cat`
+Cat is short for concatenate. This command displays the contents of one or more files without having to open the file for editing. You can view the contents of a file or use the command to direct in between. Can also combine files by appending one file’s contents to the end of another file, and create new files.
 
 Typing these commands in should be as follows:
 
@@ -109,7 +121,7 @@ After typing and trying some of the commands above, you may get output such as t
 
 ![Image](accnt16.png)
   
-Using the command `cd` would change the directory, if you have no such file with the name you specified after `cd` then nothing will occur. Using the command `cd~` just returned me to the home directory so not much happened or there was no other outcome. `Ls -lat` seems to just give you a long list of files and the dates/times associated with them
+ `Ls -lat` seems to just give you a long list of files and the dates/times associated with them
   
 *Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.*
   
