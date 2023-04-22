@@ -62,10 +62,10 @@ Before we begin this process, the reason people should learn to connect to remot
 
 ![Image](accnt10.png)
 
-8. Incase you missed it, to open your terminal in VsCode after bash has been embedded is pressing Ctrl/Command and the symbol ( ` ). The $ symbol is also something that should already be there and not something you have to type.
-9. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the "$" symbol, as long as later commands work then it should work fine regardless.
-10. Now you wanna get your CSE 15L account from earlier, the one that's usually formatted as cs15lsp23xx (the xx being replaced by your own individual symbols) and add "@ieng6.ucsd.edu" after it. All together the email should look like: cs15lsp23xx@ieng6.ucsd.edu
-11. Now you wanna type into the terminal, click to the right of the "$" symbol and type: shh + the cs15lsp23xx@ieng6.ucsd.edu email that you created from above so that it should look like this in the terminal:
+8. Incase you missed it, to open your terminal in VsCode after bash has been embedded is pressing Ctrl/Command and the symbol above the tab key. The `$` symbol is also something that should already be there and not something you have to type.
+9. The text in green is my laptop name and my actual name, which if it does appear for you should also be different. This part of the terminal isn't too essential or important so if it doesn't show anything for you other than the `$` symbol, as long as later commands work then it should work fine regardless.
+10. Now you wanna get your CSE 15L account from earlier, the one that's usually formatted as cs15lsp23xx (the xx being replaced by your own individual symbols) and add "@ieng6.ucsd.edu" after it. All together the email should look like: `cs15lsp23xx@ieng6.ucsd.edu`
+11. Now you wanna type into the terminal, click to the right of the `$` symbol and type: `shh` + the `cs15lsp23xx@ieng6.ucsd.edu` email that you created from above so that it should look like this in the terminal:
 
 ![Image](accnt15.png) 
 
@@ -73,7 +73,7 @@ Before we begin this process, the reason people should learn to connect to remot
 
 ![Image](accnt13.png)
 
-13. This message only appears if it's your first time logging in so you will have to type in " yes "
+13. This message only appears if it's your first time logging in so you will have to type in `yes`
 14. It will then ask for your password so use the password you typed in from the password change of your course-specific account and type it in. There are times where you would be typing in the password but it isn't showing anything, but if you just type it out and then press enter it should log you in regardless.
 15. To know you have succesfully logged in, it will look like:
 
@@ -88,18 +88,18 @@ Before we begin this process, the reason people should learn to connect to remot
 Now that you have VsCode set up and are successfully remotely connected into a server, it's time to try some commands to check if you have done the previous steps right and are on the right path.
 
 Here is a list of commands you can try (copy & paste if you have to):
-* **cd**
-* **cd** ~
-* **ls**
-* **ls -lat**
-* **ls -a**
-* ls <directory>
-* **pwd**
-* **mkdir**
+* `cd`
+* `cd ~`
+* `ls`
+* `ls -lat`
+* `ls -a`
+* `ls <directory>`
+* `pwd`
+* `mkdir`
 Commands to try with other students as well in server:
-* **cp**
-* **cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/**
-* **cat /home/linux/ieng6/cs15lsp23/public/hello.txt**
+* `cp`
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
 Typing these commands in should be as follows:
 
@@ -109,7 +109,7 @@ After typing and trying some of the commands above, you may get output such as t
 
 ![Image](accnt16.png)
   
-Using the command **cd** would change the directory, if you have no such file with the name you specified after **cd** then nothing will occur. Using the command **cd~** just returned me to the home directory so not much happened or there was no other outcome. **Ls -lat** seems to just give you a long list of files and the dates/times associated with them
+Using the command `cd` would change the directory, if you have no such file with the name you specified after `cd` then nothing will occur. Using the command `cd~` just returned me to the home directory so not much happened or there was no other outcome. `Ls -lat` seems to just give you a long list of files and the dates/times associated with them
   
 *Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.*
   
