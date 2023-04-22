@@ -1,6 +1,6 @@
 # Lab Report 1
 ***
-
+theme: 
 ## Intro Steps (Before you begin)
 First and foremost, you will need the following before you begin the tutorial to ensure the smoothest and quickest set up.
 These include:
