@@ -71,11 +71,11 @@ cs15lsp23xx@ieng6.ucsd.edu
 ```
 ssh
 ```
-+ the: 
+along next to it the email that you created above: 
 ```
 cs15lsp23xx@ieng6.ucsd.edu
 ```
-The email that you created from above so that it should look like this in the terminal:
+It should look like this in the terminal:
 
 ![Image](accnt15.png) 
 
