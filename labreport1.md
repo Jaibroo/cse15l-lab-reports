@@ -125,4 +125,7 @@ These commands are the basic ones used by almost every developer as its the most
 *Once you are finally done trying some of these commands or any other you are instructed to, you can now log out and exit from the remote server with typing in the simple command: "exit" or pressing CTRL + D.*
   
 **CONGRATS, you just managed to go through with this tutorial and now know how to download and set up VsCode, your CSE 15L account for remote server connections, and even running certain commands.**
-
+````
+yes
+msyve
+````
