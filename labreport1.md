@@ -105,7 +105,7 @@ Here is a list of commands you can try (copy & paste if you have to):
 -The `mkdir` command in Linux allows the user to create directories and can create multiple directories at once, setting the permissions for the directories.
 
 Commands to try with other students as well in server:
-* `cp`
+* ````cp````
 -The command `cp` is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name, but requires at least two filenames in its arguments
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 -This is a way to use thie command `cp` which allows for the "hello" text to appear for everyone within the server/class.
