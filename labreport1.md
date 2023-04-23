@@ -145,7 +145,9 @@ cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 -This is a way to use thie command `cp` which allows for the "hello" text to appear for everyone within the server/class.
 ```
 cat /home/linux/ieng6/cs15lsp23/public/hello.txt 
-or 
+```
+or
+```
 cat
 ```
 -`cat` is short for concatenate. This command displays the contents of one or more files without having to open the file for editing. You can view the contents of a file or use the command to direct in between. Can also combine files by appending one file’s contents to the end of another file, and create new files.
