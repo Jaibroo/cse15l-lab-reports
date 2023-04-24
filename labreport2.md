@@ -32,7 +32,7 @@ $ java StringServer.java 8000
 5. `Integer.parseInt(String)`: This method parses the specified string as a signed decimal integer and returns the result.
 6. `Server.start(int, URLHandler)`: This method starts a server on the specified port and uses the specified URL handler to handle requests.
 
-First Example:
+**First Example:**
 
 ![Image](bnnt3.png)
 
@@ -61,3 +61,15 @@ Server.start(port, new Handler());
 * The getQuery() method of the URI object returns `s=This is the first example using strings`, which is split into an array containing `s` and `This is the first example using strings`. The getQuery values could change such as the name before the `s` and the value after the `=` to another string that will then be added under in a new line from the past strings to be showcased on the screen.
 * The code checks if the first element of the array is equal to `s`, which is true, so the second element of the array ("This is the first example using strings") is added to the message field, which becomes "This is the first example using strings\n". This value will be changed once you decide to change the string values.
 * The Handler class implements the URLHandler interface and has a method called handleRequest() which takes a URI parameter and returns a String. Inside the handleRequest() method, it checks if the path of the URI contains a forward slash (/). If it does, it splits the query string by equals (=) sign and checks if the first element of the resulting array is equal to `s`. If it is, it adds the second element of the array to the message field and returns the message. If any of the conditions are not met, it returns "No message yet".
+
+**Second Example:**
+
+![Image](bnnt5.png)
+  
+* You would erase the previous statemet `this is the first example using strings` and change it to `2nd example using numbers 100` after the `add-message/?s=` which should then concatenate onto a new line under the previous statement and displayed on the screen as shown below:
+  
+```
+/add-message?s=2nd example using numbers 100
+```
+
+![Image](bnnt6.png)
