@@ -22,7 +22,7 @@ $ java StringServer.java 8000
 4. We would have to add the String contents after the port number to see the codes output.
 
 ## Trying the add-message examples:
- **Below are two examples of the add-message tests to showcase how the code concate.
+ **Below are two examples of the add-message tests to showcase how the code concate.**
  **When running both examples, a generalization of the used methods that are essential in the functionality of the code itself are as follows:**
 1. `URI.getPath()`: This method returns the path component of the URI as a string.
 2. `URI.getQuery()`: This method returns the query component of the URI as a string.
@@ -46,11 +46,15 @@ First Example:
 
 **I believe that the methods that are called when I write the port using `java StringServer 7060` in the terminal and then typing `add-message?s=This is the first example using strings` would have to be the following:**
 
-* The main() method in the StringServer class is called with the port `7060` number as an argument.
-* The start() method of the Server class is called with the port number and a new instance of the Handler class as arguments. This would change when you enter a new port, the link provided such as `localhost:<port>` is based on the port number you write.
-* The handleRequest() method of the Handler class is called with the URI object representing the URL /add-message?s=Hello as an argument.
-**The relevant arguments to the handleRequest() method are:
-* website: a URI object representing the URL /add-message?s=Hello. This changes the field value of website by allowing it to be processed through the commands in the handleRequest method body.
+* The main() method in the StringServer class is called with the port `7060` number as an argument. Whenever this number is changed, you would be opening the web server with another port using a different port number using the code lines below to initiate the website.
+```
+int port = Integer.parseInt(args[0]);
+Server.start(port, new Handler());
+```
+* The start() method of the Server class is called with the port number and a new instance of the Handler class as arguments. This would change when you enter a new port, the link provided such as `localhost:<port>` is based on the port number you write. See above code.
+* The handleRequest() method of the Handler class is called with the URI object representing the `URL` : `/add-message?s=This is the first example using strings` as an argument. This field would change as it takes in the URL string section after the localhost<port>, after that, it wouldn't change much.
+**The relevant arguments to the handleRequest() method are:**
+* website: a URI object representing the URL `/add-message?s=This is the first example using strings`. This changes the field value of website by allowing it to be processed through the commands in the handleRequest method body.
 * The value of the message field of the Handler class is initially an empty string.
 **When the handleRequest() method is called with the URI object representing the URL /add-message?s=This is the first example using strings, the following things happen:
 * The getPath() method of the URI object returns "/add-message", which contains a forward slash, so the code inside the if statement is executed.
