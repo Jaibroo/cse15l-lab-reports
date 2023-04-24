@@ -11,6 +11,7 @@ The functionality of the code is based off the port, you must first compile the 
 $ javac Server.java StringServer.java
 $ java StringServer.java 8000
 ```
+**The number can be 8000 or any number from 1024 to 49151, just as I used 7060 as the port for the below examples**
 **The purpose of the code is to concatenate a new line (\n) and the string after = in the web server link, which should then respond with the new string after each line on the page, you will see some examples I tried below.**
 
 1. The number after StringServer.java is the port number that you must enter to have your web server be started up using that port. You can type any port number ranging from 1024 to 49151.
