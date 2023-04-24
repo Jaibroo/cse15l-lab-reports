@@ -11,7 +11,7 @@ The functionality of the code is based off the port, you must first compile the 
 $ javac Server.java StringServer.java
 $ java StringServer.java 8000
 ```
-**The purpose of the code is to concatenate a new line (\n) and the string after = in the web server link, which should then respond with the new string after each line on the page, you will see some examples I tried below.
+**The purpose of the code is to concatenate a new line (\n) and the string after = in the web server link, which should then respond with the new string after each line on the page, you will see some examples I tried below.**
 
 1. The number after StringServer.java is the port number that you must enter to have your web server be started up using that port. You can type any port number ranging from 1024 to 49151.
 2. After you would get message such as this in your terminal which is a link that takes you to that server.
@@ -56,7 +56,7 @@ Server.start(port, new Handler());
 **The relevant arguments to the handleRequest() method are:**
 * website: a URI object representing the URL `/add-message?s=This is the first example using strings`. This changes the field value of website by allowing it to be processed through the commands in the handleRequest method body.
 * The value of the message field of the Handler class is initially an empty string.
-**When the handleRequest() method is called with the URI object representing the URL /add-message?s=This is the first example using strings, the following things happen:
+* When the handleRequest() method is called with the URI object representing the URL `/add-message?s=This is the first example using strings` , the following things happen:
 * The getPath() method of the URI object returns "/add-message", which contains a forward slash, so the code inside the if statement is executed.
 * The getQuery() method of the URI object returns `s=This is the first example using strings`, which is split into an array containing `s` and `This is the first example using strings`.
 * The code checks if the first element of the array is equal to `s`, which is true, so the second element of the array ("This is the first example using strings") is added to the message field, which becomes "This is the first example using strings\n".
