@@ -52,7 +52,7 @@ int port = Integer.parseInt(args[0]);
 Server.start(port, new Handler());
 ```
 * The start() method of the Server class is called with the port number and a new instance of the Handler class as arguments. This would change when you enter a new port, the link provided such as `localhost:<port>` is based on the port number you write. See above code.
-* The handleRequest() method of the Handler class is called with the URI object representing the `URL` : `/add-message?s=This is the first example using strings` as an argument. This field would change as it takes in the URL string section after the localhost<port>, after that, it wouldn't change much.
+* The handleRequest() method of the Handler class is called with the URI object representing the `new URI (/add-message?s=This is the first example using strings)` as an argument. This field would change as it takes in the URL string section after the localhost<port>, after that, it wouldn't change much.
 **The relevant arguments to the handleRequest() method are:**
 * website: a URI object representing the URL `/add-message?s=This is the first example using strings`. This changes the field value of website by allowing it to be processed through the commands in the handleRequest method body.
 * The value of the message field of the Handler class is initially an empty string.
@@ -73,3 +73,19 @@ Server.start(port, new Handler());
 ```
 
 ![Image](bnnt6.png)
+  
+**Since the port has already been pre-determined from before, you wouldn't have to change or start another port web server, just changing the <message> section of /add-message?s=<message> to the next value you decide to change it too.
+
+* The start() method of the Server class is called with the port number and a new instance of the Handler class as arguments. This time around, the port would npt change since the value of <port> would remain the same from below, we are only changing the value of <message> to display more on our page, not starting a whole other page with a different port.
+* The handleRequest() method of the Handler class is called with the URI object representing the `new URI(/add-message?s=2nd example using numbers 100)` as an argument. This field would change as it takes in the URL string section after the localhost<7060>, after that, it would change from the past value of `/add-message?s=This is the first example using strings`.
+**The relevant arguments to the handleRequest() method are:**
+* website: a URI object representing the URL `/add-message?s=2nd example using numbers 100`. This changes the field value of website by allowing it to be processed through the commands in the handleRequest method body. It would be changed changed as there was a change in URL value from this next request.
+* The value of the message field of the Handler class used to be the first request "This is the first example using strings", but now changes to the second request "2nd example using numbers 100".
+* When the handleRequest() method is called with the URI object representing the URL `/add-message?s=2nd example using numbers 100` , the following things happen:
+* The getPath() method of the URI object returns "/add-message" which has not changed as it uses the same path from the previous first example of the /add-message so there wouldn't be a change in paths unless we manually change it. Containing a forward slash, the code inside the if statement is executed. This value could also change to any string such as a name of a URL change or numbers added, as long as they are behind the "?s=" is there it will split off from.
+* The getQuery() method of the URI object returns `s=2nd example using numbers 100`, which is split into an array containing `s` and `2nd example using numbers 100`. The getQuery values could change such as the name before the `s` and the value after the `=` to another string that will then be added under in a new line from the past strings to be showcased on the screen using the line of code below.
+```
+message += parameters[1] + "\n";
+```
+* The code checks if the first element of the array is equal to `s`, which is true, so the second element of the array ("2nd example using numbers 100") is added to the message field, which becomes `2nd example using numbers 100\n` which was done right after `This is the first example using strings\n`. This value will be changed once you decide to change the string values such as the one just provided that includes numbers.
+* The Handler class implements the URLHandler interface and has a method called handleRequest() which takes a URI parameter and returns a String. Inside the handleRequest() method, it checks if the path of the URI contains a forward slash (/). If it does, it splits the query string by equals (=) sign and checks if the first element of the resulting array is equal to `s`. If it is, it adds the second element of the array to the message field and returns the message. If any of the conditions are not met, it returns "No message yet".
