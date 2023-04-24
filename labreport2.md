@@ -67,7 +67,7 @@ Server.start(port, new Handler());
 
 ![Image](bnnt5.png)
   
-* You would erase the previous statemet `this is the first example using strings` and change it to `2nd example using numbers 100` after the `add-message/?s=` which should then concatenate onto a new line under the previous statement and displayed on the screen as shown below:
+* You would erase the previous statemet `This is the first example using strings` and change it to `2nd example using numbers 100` after the `add-message/?s=` which should then concatenate onto a new line under the previous statement and displayed on the screen as shown below:
   
 ```
 /add-message?s=2nd example using numbers 100
@@ -90,3 +90,10 @@ message += parameters[1] + "\n";
 ```
 * The code checks if the first element of the array is equal to `s`, which is true, so the second element of the array ("2nd example using numbers 100") is added to the message field, which becomes `2nd example using numbers 100\n` which was done right after `This is the first example using strings\n`. This value will be changed once you decide to change the string values such as the one just provided that includes numbers.
 * The Handler class implements the URLHandler interface and has a method called handleRequest() which takes a URI parameter and returns a String. Inside the handleRequest() method, it checks if the path of the URI contains a forward slash (/). If it does, it splits the query string by equals (=) sign and checks if the first element of the resulting array is equal to `s`. If it is, it adds the second element of the array to the message field and returns the message. If any of the conditions are not met, it returns "No message yet".
+***
+  
+## Part 2 (Lab Bug):
+  
+Both the files ArrayExamples.java and ArrayTests.java were used for this section.
+* The ArrayExamples.java file has two implementations of reverse methods `reverse` and `reverseInPlace` that seem to have had bugs at which we tested and fixed.
+* The ArrayTests.java file has the tests at which we used to identify these bugs and write some of our own that helped in demonstrating these bugs and what solutions proposed to fix them.
