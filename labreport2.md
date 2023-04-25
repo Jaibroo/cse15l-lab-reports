@@ -165,8 +165,17 @@ static int[] reversed(int[] arr) {
 The old buggy program deviates from its purpose by assigning newArray’s value back to the input array such as replacing without the new values in their correct index. So the bug will be the “assigning strategy”. The bug in reversed is that the arr in arr[i] should be replaced with newArray in newArray[arr.length - i - 1] in the for loop because newArray has no elements, and so arr would be filled up with empty elements which is why the output was all swapped with 0's. The solution for reversed would be to switch newArray and arr so that the newArray would be filled up with elements from arr going from the end to the front. With the fix, it should correctly evaluate through the newArray and add the values in reverse order.
 ***
   
-## Part 3
+## Part 3 (What I learned):
 
+Week 2:
+* One of the first things I did not know before but got to learn how to set up a github desktop, cloning a repository that you get and being able to open it and edit with VsCode, or any other program editor. You can also save your new changes to the files inside the repositories and you'll be able to update it for later use, which is what I did when loading back my code for the ArrayExamples.
+* I also learned about building and running a server with code that handles the URL and how to set up and change ports for local hosts as well as when connecting to them from remote servers that could have been made from other students.. I felt this part was essential in the lab, as we got to play around and learn the basics about URLs and how paths and queries are a large part of it and how we could change it so that our url outputs strings or number changes.
+* Commit to master in github desktop and Push to origin so that your code changes done are saved to your github.
+* I never knew things such as basic accessing to URLs with command lines such as `curl https://raw.githubusercontent.com/ucsd-cse15l-w23/WhereAmI/main/WhereAmI.java` and how to access with the curl command from local computers and remote access.
+ 
+As for Week 3:
+* We went in more depth to our creation/implementation of a simple web server to track a list of strings. I did struggle a bit as I was still struggling to understand how the NumberServer.java web server worked so that I could code my own above, so I decided to follow the same format to make it as simple as possible and get the output working as needed. This allowed me understand how to change messages and string so that it would display on a page and honestly learning how to work around the page was pretty interesting an kept me intrigued. 
+* I felt this week was wonderful in taking a stab at recognizing bugs/errors in code, know the symptoms of the bugs and find ways to solve these bugs. It was great that we got to work with teammates to share the work load and to have more brain power in brainstorming these analytics. I feel this all served a great way in finding methods we are comfortable with to help shorten our time dealing with these tasks and acknowledging where I need to continue practicing in hopes I can reach a level of understanding to which I would feel confident fixing these issues alone.
 
   
 
