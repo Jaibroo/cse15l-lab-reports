@@ -141,7 +141,7 @@ public class ArrayExamples {
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
+      newArray[i] = arr[newArray.length - i - 1];
     }
     return arr;
   }
@@ -153,9 +153,20 @@ static int[] reversed(int[] arr) {
  static int[] reversed(int[] arr) {
      int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
+      newArray[i] = arr[arr.length - i - 1];
     }
-    return arr;
+    return newArray;
   }
  ```
-                                  
+ **Bug fixes:** 
+* Swapped arr and newArray	
+* Was incorrectly changing the Array values within array
+
+The old buggy program deviates from its purpose by assigning newArray’s value back to the input array such as replacing without the new values in their correct index. So the bug will be the “assigning strategy”. The bug in reversed is that the arr in arr[i] should be replaced with newArray in newArray[arr.length - i - 1] in the for loop because newArray has no elements, and so arr would be filled up with empty elements which is why the output was all swapped with 0's. The solution for reversed would be to switch newArray and arr so that the newArray would be filled up with elements from arr going from the end to the front. With the fix, it should correctly evaluate through the newArray and add the values in reverse order.
+***
+  
+## Part 3
+
+
+  
+
