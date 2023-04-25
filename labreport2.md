@@ -97,3 +97,65 @@ message += parameters[1] + "\n";
 Both the files ArrayExamples.java and ArrayTests.java were used for this section.
 * The ArrayExamples.java file has two implementations of reverse methods `reverse` and `reverseInPlace` that seem to have had bugs at which we tested and fixed.
 * The ArrayTests.java file has the tests at which we used to identify these bugs and write some of our own that helped in demonstrating these bugs and what solutions proposed to fix them.
+  
+**I will be going over the reversed method implementation:**
+The purpose of the following method is to return an array of numbers that is in reversed order of what has been placed as the input.
+  
+**Failure inducing input for the buggy reversed method goes as follows:**
+```
+@Test 
+  public void testReversed(){
+    int[] input1 = {1,2,3};
+    int[] result = ArrayExamples.reversed(input1);
+    assertArrayEquals(new int[]{3,2,1}, result);
+  }
+```
+The input1 array should have returned the array that was in `assertArrayEquals(new[]{5,5,5,3,1,1,1}, result)`, but it instead had an output of all zeros.
+  
+**An input that does not induce a failure according to past outputs:**
+```
+@Test 
+  public void testReversed(){
+    int[] input1 = {1,2,3};
+    int[] result = ArrayExamples.reversed(input1);
+    assertArrayEquals(new int[]{0,0,0}, result);
+  }
+```
+The input matches what the buggy method was doing, which is in replacing all values with 0's, thus it ran and matched with the assertArrayEquals value.
+
+**Symptom of running both tests from above:**
+ 
+* This is the output of running with the input being `{1,2,3}` and expecting `{3,2,1}` in the `assertArrayEquals` to check if it matches, which turned out to fail as seen below:
+  
+![Image](bnnt9.png)
+
+* This is the output of running with the input '{1,2,3}` which is same as above, but expecting `{0,0,0}` and once it ran, it passed the tests and turned out to successfully match put the input and expected output.
+  
+![Image](bnnt8.png)
+  
+I feel the symptom of the buggy reversed program is expecting and changing the output to be empty array or simply replacing all of the values with 0, when it should instead be reversing the order of the array.
+
+**Buggy program before (as it is default):**
+```
+public class ArrayExamples {
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+ ```
+ 
+ **Buggy programed code now fixed (Working as it should):
+ ```
+ public class ArrayExamples {
+ static int[] reversed(int[] arr) {
+     int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+ ```
+                                  
