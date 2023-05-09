@@ -3,7 +3,7 @@
 
 ## #1: Using the Command `find` and `-name`
 The first command-line operation for `find` will be the command `-name`:
-It is usually structured as `find /path/to/directory -name "example.txt"`, where example.txt is replaced by the name of a file or directory.
+It is usually structured as `find /path/to/directory -name "example.txt"`, where `example.txt` is replaced by the name of a file or directory.
 * An example of using said command would be:
 ```
 $ find stringsearch-data/technical -name "5_Legal_Groups.txt"
@@ -15,7 +15,7 @@ stringsearch-data/technical/government/Media/5_Legal_Groups.txt
 $ find stringsearch-data/technical -name "Media"
 stringsearch-data/technical/government/Media
 ```
-**When used with the find command, the -name option allows you to search for files or directories that match a specific name or a pattern and gives you the path as the output. This ultimately allows you to time and effort when working with large sets of files or directories.**
+**When used with the `find` command, the -name option allows you to search for files or directories that match a specific name or a pattern and gives you the path as the output. This ultimately allows you to time and effort when working with large sets of files or directories.**
 
 Source: Used Chat-GPT to ask about the functionality of `-name` for the command-line operation `find` as well as how it can be used.
 
@@ -23,7 +23,7 @@ Source: Used Chat-GPT to ask about the functionality of `-name` for the command-
 
 ## #2: Using the Command `-size` for `find`
 A second different command-line operation used along with `find` is `-size`:
-It's usually formatted as `find /path/to/directory -size +/-#` where the + would represent more and - represent less than, as well as where the # would be replaced by a number and then a letter variable such as k-kilobytes, M-megabytes, c-bytes and even G-gigabytes.
+It's usually formatted as `find /path/to/directory -size +/-#` where the `+` would represent more and `-` represent less than, as well as where the `#` would be replaced by a number and then a letter variable such as `k`-kilobytes, `M`-megabytes, `c`-bytes and even `G`-gigabytes.
 * First Example using `-size` for more than 12 kilobytes:
 ```
 $ stringsearch:214$ find stringsearch-data/technical/government/Media -size +12k
@@ -47,7 +47,7 @@ stringsearch-data/technical/government/Media/Anthem_Payout.txt
 ```
 -The list continued on until the output was all files less than 10 kilobytes.
 
-**The -size command is essential in looking for files of specific sizes (k/M/G/c) and it gives you an output of a list of files that meet that size requirement. This is helpful when working with large files or when trying to free up disk space as you could find and get rid of unecessary files.**
+**The `-size` command is essential in looking for files of specific sizes `(k/M/G/c)` and it gives you an output of a list of files that meet that size requirement. This is helpful when working with large files or when trying to free up disk space as you could find and get rid of unecessary files.**
 
 Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
@@ -93,7 +93,7 @@ stringsearch-data/technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
 -Lists all files within the desired pathway.
 
-**-type is used to filter search results by the type of file being searched for. It allows you to narrow down your search results based on the type of file you're interested in, such as regular files, directories, symbolic links, etc. The -type option can also be useful when used in conjunction with other options such as -name and -size to search for files with specifics.**
+**`-type` is used to filter search results by the type of file being searched for. It allows you to narrow down your search results based on the type of file you're interested in, such as regular files, directories, symbolic links, etc. The `-type` option can also be useful when used in conjunction with other options such as `-name` and `-size` to search for files with specifics.**
 
 Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/ 
 
