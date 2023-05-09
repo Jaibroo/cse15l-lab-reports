@@ -96,3 +96,7 @@ stringsearch-data/technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 **-type is used to filter search results by the type of file being searched for. It allows you to narrow down your search results based on the type of file you're interested in, such as regular files, directories, symbolic links, etc. The -type option can also be useful when used in conjunction with other options such as -name and -size to search for files with specifics.**
 
 Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/ 
+
+***
+
+## Using Command 
