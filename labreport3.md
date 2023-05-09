@@ -49,7 +49,7 @@ stringsearch-data/technical/government/Media/Anthem_Payout.txt
 
 **The `-size` command is essential in looking for files of specific sizes `(k/M/G/c)` and it gives you an output of a list of files that meet that size requirement. This is helpful when working with large files or when trying to free up disk space as you could find and get rid of unecessary files.**
 
-Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+Source: [Evidence used for the -size command](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 ***
 
@@ -95,7 +95,7 @@ stringsearch-data/technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
 
 **`-type` is used to filter search results by the type of file being searched for. It allows you to narrow down your search results based on the type of file you're interested in, such as regular files, directories, symbolic links, etc. The `-type` option can also be useful when used in conjunction with other options such as `-name` and `-size` to search for files with specifics.**
 
-Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/ 
+Source: [Evidence used for -type command](https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/) 
 
 ***
 
@@ -133,4 +133,4 @@ stringsearch-data/technical/plos/journal.pbio.0020047.txt
 
 **The `-mindepth` command is used for specifying the minimum depth of the directory depth that `find` should start searching from. It tells `find` to only consider files and directories that are at least the specified number of levels deep in the directory tree and is useful because it allows you to limit the range of your search to a specific level in the directory tree/path.**
 
-Source: https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/ 
+Source: [Evidence used for -mindepth command](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
