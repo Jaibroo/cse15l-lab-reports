@@ -9,6 +9,7 @@ It is usually structured as `find /path/to/directory -name "example.txt"`, where
 $ find stringsearch-data/technical -name "5_Legal_Groups.txt"
 stringsearch-data/technical/government/Media/5_Legal_Groups.txt
 ```
+
 * Second example of using `-name`:
 ```
 $ find stringsearch-data/technical -name "Media"
@@ -23,12 +24,13 @@ Source: Used Chat-GPT to ask about the functionality of `-name` for the command-
 ## Using the Command `-size` for `find`
 A second different command-line operation used along with `find` is `-size`:
 It's usually formatted as `find /path/to/directory -size +/-#` where the + would represent more and - represent less than, as well as where the # would be replaced by a number and then a letter variable such as k-kilobytes, M-megabytes, c-bytes and even G-gigabytes.
-* First Example using -size for more than 12 kilobytes:
+* First Example using `-size` for more than 12 kilobytes:
 ```
 $ stringsearch:214$ find stringsearch-data/technical/government/Media -size +12k
 stringsearch-data/technical/government/Media/Coup_Reshapes_Legal_Aid.txt
 stringsearch-data/technical/government/Media/Terrorist_Attack.txt
 ```
+
 * Second Example: 
 ```
 $ find stringsearch-data/technical/government/Media -size -10k
@@ -53,3 +55,44 @@ Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 ## Using the command `-type` for `find`
 This third command `-type` is used along with `find`:
+The format for entering the input would look something like `find /path/to/search -type f` where the `f` (regular files) would be replaced by either `d` (for directories), `l` for symbolic links, `s` for sockets, `p` for pipes, `c` for special characters, and `b` for block special files.
+* First example using `-type d`:
+```
+$ stringsearch:217$ find stringsearch-data/technical -type d
+stringsearch-data/technical
+stringsearch-data/technical/911report
+stringsearch-data/technical/biomed
+stringsearch-data/technical/government
+stringsearch-data/technical/government/About_LSC
+stringsearch-data/technical/government/Alcohol_Problems
+stringsearch-data/technical/government/Env_Prot_Agen
+stringsearch-data/technical/government/Gen_Account_Office
+stringsearch-data/technical/government/Media
+stringsearch-data/technical/government/Post_Rate_Comm
+stringsearch-data/technical/plos
+```
+-Lists all directories within technical path.
+
+* Second Example using `-type f`:
+```
+$ find stringsearch-data/technical/government/Post_Rate_Comm -type f
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_Cost_Function.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_CreamSkimming.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_DeliveryCost.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_RuralDelivery.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_Scale.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Cohenetal_comparison.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Gleiman_EMASpeech.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Gleiman_gca2000.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Mitchell_RMVancouver.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Mitchell_spyros-first-class.txt
+stringsearch-data/technical/government/Post_Rate_Comm/Redacted_Study.txt
+stringsearch-data/technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt
+stringsearch-data/technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
+```
+-Lists all files within the desired pathway.
+
+**-type is used to filter search results by the type of file being searched for. It allows you to narrow down your search results based on the type of file you're interested in, such as regular files, directories, symbolic links, etc. The -type option can also be useful when used in conjunction with other options such as -name and -size to search for files with specifics.**
+
+Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/ 
