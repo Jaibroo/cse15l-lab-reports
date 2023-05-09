@@ -1,7 +1,7 @@
 # Lab Report 3
 ***
 
-## Using the Command `find` and `-name`
+## #1: Using the Command `find` and `-name`
 The first command-line operation for `find` will be the command `-name`:
 It is usually structured as `find /path/to/directory -name "example.txt"`, where example.txt is replaced by the name of a file or directory.
 * An example of using said command would be:
@@ -21,7 +21,7 @@ Source: Used Chat-GPT to ask about the functionality of `-name` for the command-
 
 ***
 
-## Using the Command `-size` for `find`
+## #2: Using the Command `-size` for `find`
 A second different command-line operation used along with `find` is `-size`:
 It's usually formatted as `find /path/to/directory -size +/-#` where the + would represent more and - represent less than, as well as where the # would be replaced by a number and then a letter variable such as k-kilobytes, M-megabytes, c-bytes and even G-gigabytes.
 * First Example using `-size` for more than 12 kilobytes:
@@ -53,7 +53,7 @@ Source: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
 
 ***
 
-## Using the command `-type` for `find`
+## #3: Using the command `-type` for `find`
 This third command `-type` is used along with `find`:
 The format for entering the input would look something like `find /path/to/search -type f` where the `f` (regular files) would be replaced by either `d` (for directories), `l` for symbolic links, `s` for sockets, `p` for pipes, `c` for special characters, and `b` for block special files.
 * First example using `-type d`:
@@ -99,7 +99,7 @@ Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/
 
 ***
 
-## Using Command `-mindepth` for `find`
+## #4: Using Command `-mindepth` for `find`
 This fourth command is also used with `find`:
 The formatting for using this code looks something to `find /path/to/search -mindepth 2 -type d`, where the number `2` would be replaced with the specific number of depth of the files/directories to be found, while the `d`(directories) could be replaced with an `f` for files limitations.
 * First Example using `-mindepth 2 -type d`:
