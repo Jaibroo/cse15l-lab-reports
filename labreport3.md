@@ -99,4 +99,38 @@ Source: https://www.howtogeek.com/771399/how-to-use-the-find-command-in-linux/
 
 ***
 
-## Using Command 
+## Using Command `-mindepth` for `find`
+This fourth command is also used with `find`:
+The formatting for using this code looks something to `find /path/to/search -mindepth 2 -type d`, where the number `2` would be replaced with the specific number of depth of the files/directories to be found, while the `d`(directories) could be replaced with an `f` for files limitations.
+* First Example using `-mindepth 2 -type d`:
+```
+$ find stringsearch-data/technical/ -mindepth 2 -type d
+stringsearch-data/technical/government/About_LSC
+stringsearch-data/technical/government/Alcohol_Problems
+stringsearch-data/technical/government/Env_Prot_Agen
+stringsearch-data/technical/government/Gen_Account_Office
+stringsearch-data/technical/government/Media
+stringsearch-data/technical/government/Post_Rate_Comm
+```
+
+* Second Example using `mindepth 1 -type f`:
+```
+$ find stringsearch-data/technical/plos -mindepth 1 -type f
+stringsearch-data/technical/plos/journal.pbio.0020001.txt
+stringsearch-data/technical/plos/journal.pbio.0020010.txt
+stringsearch-data/technical/plos/journal.pbio.0020012.txt
+stringsearch-data/technical/plos/journal.pbio.0020013.txt
+stringsearch-data/technical/plos/journal.pbio.0020019.txt
+stringsearch-data/technical/plos/journal.pbio.0020028.txt
+stringsearch-data/technical/plos/journal.pbio.0020035.txt
+stringsearch-data/technical/plos/journal.pbio.0020040.txt
+stringsearch-data/technical/plos/journal.pbio.0020042.txt
+stringsearch-data/technical/plos/journal.pbio.0020043.txt
+stringsearch-data/technical/plos/journal.pbio.0020046.txt
+stringsearch-data/technical/plos/journal.pbio.0020047.txt
+```
+-It went on to list the rest of the files in the directory plos.
+
+**The `-mindepth` command is used for specifying the minimum depth of the directory depth that `find` should start searching from. It tells `find` to only consider files and directories that are at least the specified number of levels deep in the directory tree and is useful because it allows you to limit the range of your search to a specific level in the directory tree/path.**
+
+Source: https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/ 
