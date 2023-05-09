@@ -147,7 +147,7 @@ static int[] reversed(int[] arr) {
   }
  ```
  
- **Buggy programed code now fixed (Working as it should):
+ **Buggy programed code now fixed (Working as it should):**
  ```
  public class ArrayExamples {
  static int[] reversed(int[] arr) {
