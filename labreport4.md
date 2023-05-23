@@ -57,7 +57,7 @@ This step is very similar to when we first ran step 3 in finding the existence o
 
 ![image](dnnt7.png)
 
-I would do the follwing codes again: `<up><up><enter>` to compile `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, and `<up><enter>` to run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which now compiles the and saves the new code changes done to use that fixed version in running the tests.
+I would do the follwing key-presses again: `<up><up><enter>` to compile `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, and `<up><enter>` to run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which now compiles the and saves the new code changes done to use that fixed version in running the tests.
 ***
 
 ## Step 6 (Final): Commiting and Pushing changes to GitHub account
