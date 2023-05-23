@@ -78,5 +78,5 @@ To do this process firsy you must type: `<g><i><t><space><a><d><d><space><.><ent
 3. `<c><d><space><l><a><b><7><up><up><enter><up><enter>`
 4. `<v><i><m><space><L><i><s><t><E><x><a><m><p><l><e><s><.><j><a><v><a><enter></><w><h><i><l><e><(><i><n><d><e><x><2><enter><j><j><j><L><L><c><w><i><n><d><e><x><2><:><w><q>    <enter>`
 5. `<up><up><enter><up><enter>`
-6. `<g><i><t><space><a><d><d><space><.><enter><g><tab><space><c><o><m><m><i><t><space><-><m><n><e><w><space><c><h><a><n><g><e><s><enter><g><tab><space><p><u><s><h><space>   <o><r><i><g><i><n><space><m><a><i><n>`
+6. `<g><i><t><space><a><d><d><space><.><enter><g><tab><space><c><o><m><m><i><t><space><-><m><n><e><w><space><c><h><a><n><g><e><s><enter><g><tab><space><p><u><s><h><space<o><r><i><g><i><n><space><m><a><i><n>`
 
