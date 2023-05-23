@@ -72,7 +72,7 @@ To do this process firsy you must type: `<g><i><t><space><a><d><d><space><.><ent
 # All Together (Key-presses):
 
 1. `<up><up><enter><t><o><j><i><enter>`
-2. 
+2. (two ways)
 * `<Ctrl-C><g><i><t><space><c><l><o><n><e><Ctrl-V><enter>`
 * `<Ctrl-C><Ctrl-V><enter>`
 3. `<c><d><space><l><a><b><7><up><up><enter><up><enter>`
