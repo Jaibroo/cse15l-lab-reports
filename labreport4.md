@@ -62,5 +62,10 @@ I would do the follwing codes again: `<up><up><enter>` to compile `javac -cp .:l
 
 ## Step 7 (Final): Commiting and Pushing changes to GitHub account
 
+For this final step, after you have seen that the tests work and the code compiles successfully as expected, you should now commit and push your changes to be saved to your github account. 
+
+![image](dnnt8.png)
+
+To do this process firsy you must type: `<g><i><t><space><a><d><d><space><.><enter>`, you are instructing Git to include all changes, whether new, modified, or deleted, in the current directory and its subdirectories through the symbol `.` which represents the current directory. Next you wanna do: `<g><tab>` (finishes the word) `<space><c><o><m><m><i><t><space><-><m>`, the following can be any string message you decide to have to represent these changes in your github repository: `<n><e><w><space><c><h><a><n><g><e><s><enter>` which is the string "new changes". Next to push you wanna type: `<g><tab><space><p><u><s><h><space><o><r><i><g><i><n><space>` and after to any branch or main such as `<m><a><i><n>` which would complete the push. If you run into some instance such as myself where it asks for your github details, provide it your user and the password to your account to verify your information (only if needed).
 
 
