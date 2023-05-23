@@ -27,6 +27,12 @@ Here I copied the link from the github repository `<Ctrl-C>` and went on to the 
 
 ## Step 3: Running Tests (demonstrating which fail)
 
+In order to show that the tests file isn't working accordingly, we must compile and run the code all together which its outcome should look like:
+
+![image](dnnt6.png)
+
+In order to compile and prove the errors exist, I first started by changing the current directory to be the lab7 directory so that the files are all in the same path which is done by using `<c><d><space><l><a><b><7>`. After I would use `<up><up><enter>` which is used to find the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command which was 2 up in the search history which was much quicker to look for than to type it using up arrows. The use: `<up><enter>` for the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which is used to compile the code and was only 1 up in the search history so I just accessed it the same way. The output after pressing that last enter was the errors.
+
 ## Step 4: Fixing the code file
 
 The problem with the code was that the code section focused on `index2`, was adding `1` to `index1` rather than the correct index which was when we changed it to `index2`.
