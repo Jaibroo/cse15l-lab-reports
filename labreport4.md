@@ -32,6 +32,7 @@ In order to show that the tests file isn't working accordingly, we must compile 
 ![image](dnnt6.png)
 
 In order to compile and prove the errors exist, I first started by changing the current directory to be the lab7 directory so that the files are all in the same path which is done by using `<c><d><space><l><a><b><7>`. After I would use `<up><up><enter>` which is used to find the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command which was 2 up in the search history which was much quicker to look for than to type it using up arrows. The use: `<up><enter>` for the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which is used to compile the code and was only 1 up in the search history so I just accessed it the same way. The output after pressing that last enter was the errors.
+***
 
 ## Step 4: Fixing the code file
 
@@ -52,6 +53,14 @@ To fix the code I did the following: `<v><i><m>< > <L><i><s><t><E><x><a><m><p><l
 
 ## Step 6: Running tests to show code works
 
+This step is very similar to when we first ran step 3 in finding the existence of errors, but this time we will type the same commands again in same order to show that after being compiled once again, the tests should run successfully. Here's how the output should look like once the code works: 
+
+![image](dnnt7.png)
+
+I would do the follwing codes again: `<up><up><enter>` to compile `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, and `<up><enter>` to run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which now compiles the and saves the new code changes done to use that fixed version in running the tests.
+***
+
+## Step 7 (Final): Commiting and Pushing changes to GitHub account
 
 
 
