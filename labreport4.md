@@ -42,6 +42,9 @@ After fix (working code):
 ![image](dnnt5.png)
 
 To fix the code I did the following: `<v><i><m>< > <L><i><s><t><E><x><a><m><p><l><e><s><.><j><a><v><a><enter>` this would take me into the vim simulator on the file that I am currently working on fixing (ListExamples.java), and then I would `<esc>` which allows me to type and find text such as: `</><w><h><i><l><e><(><i><n><d><e><x><2><enter>` which would end up taking me to the line of code where the error exists and then to move: `<j><j><j><L><L>`, then once i'm on the first character of `index1` I would press `<c><w>` which clears the word completely so then I would type `<i><n><d><e><x><2>` to fix/replace the old index and allow the code to work. `<esc>` gets us back into normal mode so that we could finally save my work using `<:><w><q><enter>`.
+***
+
+## Step 6: Running tests to show code works
 
 
 
