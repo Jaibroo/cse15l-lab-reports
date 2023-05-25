@@ -18,9 +18,9 @@ stringsearch-data/technical/government/Media
 **When used with the `find` command, the -name option allows you to search for files or directories that match a specific name or a pattern and gives you the path as the output. This ultimately allows you to time and effort when working with large sets of files or directories.**
 
 Source: **Used Chat-GPT:**
-* Prompt Asked- "What is the proper functionality of the command-line operation `-name` when used in accordance to the command `find`? How exactly would someone use the command `-name` ?".
-* Chat-GPT Output: "The -name option is a command-line operation used in conjunction with the find command in Unix-like systems. It allows users to search for files or directories based on their name or specific patterns. When using -name, you specify a pattern or filename, and find will search for and return all the files or directories that match the specified pattern."
-* How I changed the output: As seen above, I shortned out the long output into sentences such as getting the main idea of how `name` allows us to search for files/directories as well as how when used, it gives us an out of the path used in finding those searches. I also concluded that it can be used to save time, used for effeciency.
+* **Prompt Asked-** "What is the proper functionality of the command-line operation `-name` when used in accordance to the command `find`? How exactly would someone use the command `-name` ?".
+* **Chat-GPT Output-** "The `-name` option is a command-line operation used in conjunction with the find command in Unix-like systems. It allows users to search for files or directories based on their name or specific patterns. When using `-name`, you specify a pattern or filename, and find will search for and return all the files or directories that match the specified pattern."
+* **How I changed the output-** As seen above, I shortned out the long output into sentences such as getting the main idea of how `-name` allows us to search for files/directories as well as how when used, it gives us an out of the path used in finding those searches. I also concluded that it can be used to save time, used for effeciency.
 
 ***
 
