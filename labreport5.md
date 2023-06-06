@@ -45,10 +45,10 @@ We need to specify the path where we want to run the Junit, which is in the lib 
 
 * **List-Examples-Grader**
 *  **lib**
-*   hamcrest-core-1.3.jar
-*   junit-4.13.2.jar
+*   -hamcrest-core-1.3.jar
+*   -junit-4.13.2.jar
 *  **student-submission**
-*    ListExamples.java
+*    -ListExamples.java
 *  **grade.sh
 *  GradeServer.java
 *  junit-output.txt
@@ -114,7 +114,9 @@ else
   echo ""
 fi
 ```
-4.
+4. Command lines used to trigger error: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` simply to compile as that was the main error with the code.
+
+5. To fix the error, you had to refer to line 1 of grade.sh, which is `CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'` and what was missing was simply adding `lib/` at the beginning of the CPATH which was used for the javac and java compilers so that it would clone and compile the ListExamples.java code correctly within the directory.
 
 
 
