@@ -1,5 +1,6 @@
 # Lab Report 5
 ***
+# Part 1
 
 ## 1. EdStem Post (bug):
 
@@ -117,6 +118,14 @@ fi
 4. Command lines used to trigger error: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` simply to compile as that was the main error with the code.
 
 5. To fix the error, you had to refer to line 1 of grade.sh, which is `CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'` and what was missing was simply adding `lib/` at the beginning of the CPATH which was used for the javac and java compilers so that it would clone and compile the ListExamples.java code correctly within the directory.
+***
+
+# Part 2 (Reflection)
+
+* One of the most important things I learned would definetly have to be using **vim** to edit code and files and compiling/saving work that way which I feel is going to be used for later opportunities, especially dealing with trying to lower the amount of keypresses.
+* Another thing would have to be what week 9 revolved around, which was in developing a deeper understanding of facing errors/bugs we may face commonly as well as seeing how we can approach them through a TA's perspective.
+* One thing I thought was useful that I learned from a classmate was in understanding how bash scripts work as I was still confused on the topic. You would use bash scripts to execute system commands, such as copying files, creating directories, running programs, etc.
+* Lastly, I learned that through experimentation, consistency and having people to work together with is a highly effective approach to solving code issues and getting work done and I definetly enjoyed these labs.
 
 
 
