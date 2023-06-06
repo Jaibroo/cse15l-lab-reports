@@ -22,7 +22,7 @@ I have noticed that you are trying to recieve an output that is different based 
 
 ![image](ennt14.png)
 
- My suggestions for you: Modify the grade.sh file by adding “lib/” into the CPATH at the top of your code where your compile code lines exist so the change looks something such as: `CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'` to `CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`, which is just adding. We need to specify the path where we want to run the Junit, which is in the lib path as the error above stated it must have been an error lead by an incorrect path for your code to compile as the lib directory is not specified. After you should run and compile the bash script again - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
+My suggestions for you: Check into the compiler lines and see how you can modify the grade.sh file by its CPATH at the top of your code where your compile code lines exist so the change looks something such as: `CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'` to `CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`. After you should run and compile the bash script again - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` and see if that works, if not please post another question and I'll into it.
 ***
 
 ## 3. Student Output:
@@ -30,5 +30,16 @@ I have noticed that you are trying to recieve an output that is different based 
 After, the code change should look like:
 
 ![image](ennt15.png)
+
+The Terminal Output from the respective change:
+
+![image](ennt20.png)
+
+We need to specify the path where we want to run the Junit, which is in the lib path as the error above stated it must have been an error lead by an incorrect path for your code to compile as the lib directory is not specified. The error says that it cannot find the hamcrest file because the lib directory is not specified. CPATH is assigned to the value `'.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` when it should actually be `'.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar”` with `lib/` added at the beginning of the compiler pathway as it caused the error - NoClassDefFoundError. 
+***
+
+## 4. Resources Used (background)
+
+1. The file used was from the list-examples-grader repository found in this ![link](https://github.com/ucsd-cse15l-f22/list-examples-grader.git) 
 
 
