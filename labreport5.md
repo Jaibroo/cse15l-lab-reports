@@ -43,18 +43,18 @@ We need to specify the path where we want to run the Junit, which is in the lib 
 1. The file used was from the list-examples-grader repository found in this [link](https://github.com/ucsd-cse15l-f22/list-examples-grader.git) 
 2. Directory Structure: 
 
-**List-Examples-Grader**
-  **lib**
-    hamcrest-core-1.3.jar
-    junit-4.13.2.jar
-  **student-submission**
-    ListExamples.java
-  **grade.sh
-  GradeServer.java
-  junit-output.txt
-  ListExamples.java
-  Server.java
-  TestListExamples.java**
+* **List-Examples-Grader**
+*  **lib**
+*   hamcrest-core-1.3.jar
+*   junit-4.13.2.jar
+*  **student-submission**
+*    ListExamples.java
+*  **grade.sh
+*  GradeServer.java
+*  junit-output.txt
+*  ListExamples.java
+*  Server.java
+*  TestListExamples.java**
 
 3. Contents of grade.sh before error fix:
 ```
